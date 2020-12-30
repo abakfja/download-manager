@@ -1,0 +1,1 @@
+/usr/bin/cc --coverage -g   CMakeFiles/download_manager.dir/main.c.o  -o download_manager 

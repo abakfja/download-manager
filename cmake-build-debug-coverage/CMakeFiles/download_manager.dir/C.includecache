@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vagrant/dev/download manager/main.c
+errno.h
+-
+poll.h
+-
+stdio.h
+-
+stdlib.h
+-
+sys/inotify.h
+-
+unistd.h
+-
+string.h
+-
+
