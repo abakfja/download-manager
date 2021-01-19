@@ -150,7 +150,7 @@ int main(int argc, char *argv[]) {
   /* Wait for events and/or terminal input */
 
   printf("Listening for events.\n");
-  while (true) {
+  while (1) {
     poll_num = poll(fds, nfds, -1);
     if (poll_num == -1) {
       if (errno == EINTR)
